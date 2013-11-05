@@ -6,7 +6,69 @@
         General CSS file
 */
 
-root { 
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #444;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    float: none;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+#content {
+    padding-top: 4%;
+}
+
+.nav li a:hover, .nav li a:focus {
+    background-color: #ddd;
+}
+
+.field_name {
+    text-align: right;
+}
+
+.field_option {
+    padding-left: 5%;
+}
+
+textarea.form {
+    max-width: 446px;
+    max-height: 348px;
+}
+
+input , .uneditable-input {
+    height: 30px !important;
+}
+
+.title {
+    padding: 8px;
+}
+
+span {
     display: block;
 }
 
+
+#header, #footer {
+    background-color: #eee;
+}
+
+#footer {
+    height: 38px;
+    margin-top: -38px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+span.footnote {
+    color: #888;
+    padding: 5px;
+}

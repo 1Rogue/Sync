@@ -20,14 +20,17 @@ function __autoload($class_name) {
     <body>
         <div class="container">
             <div id="header">
+                &nbsp;
             </div>
             <div id="content">
+                &nbsp;
             </div>
-            <div id="footer">
+        </div>
+        <div id="footer" class="col-md-12">
                 <span class="footnote">
                     Description. &copy; 
                     <a href="https://github.com/1Rogue">Spencer Alderman</a>
                 </span>
-            </div>
+        </div>
     </body>
 </html>
